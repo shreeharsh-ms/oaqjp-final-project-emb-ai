@@ -1,0 +1,14 @@
+student@theia:~/project$ cd /home/project/final_project
+student@theia:/home/project/final_project$ python3
+Python 3.11.4 (main, Jun  9 2023, 07:59:55) [GCC 12.3.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from EmotionDetection.emotion_detection import emotion_detector
+>>> print(emotion_detector('I am really mad about this'))
+{'anger': 0.63, 'disgust': 0.05, 'fear': 0.08, 'joy': 0.04, 'sadness': 0.12, 'dominant_emotion': 'anger'}
+>>> exit()
+student@theia:/home/project/final_project$ python3 test_emotion_detection.py
+.....
+----------------------------------------------------------------------
+Ran 5 tests in 0.012s
+
+OK
